@@ -15,6 +15,11 @@ public class Client {
 		
 		proxyPlayer.killBoss();
 		
+		try{
+			Thread.sleep(5000);
+		}catch(Exception e){
+			e.toString();
+		}
 		proxyPlayer.upgrade();
 		
 		Utils.p("游戏结束时间：2017-12-20 20:18");
