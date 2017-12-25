@@ -5,8 +5,9 @@ import utils.Utils;
 public class Client {
 	public static void main(String[] args){
 		String playerName = "张三";
+		IGamePlayer player = new GamePlayer(playerName);
 		
-		IGamePlayer proxyPlayer = new GamePlayerProxy(playerName);
+		IGamePlayer proxyPlayer = player.getProxy();
 		
 		Utils.p("游戏开始时间：2017-12-20 10:30");
 		
