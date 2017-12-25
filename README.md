@@ -1,3 +1,3 @@
 # DesignPattern
 Design pattern code.
-All of code was write by jang language
+All of code was writen by jang language
