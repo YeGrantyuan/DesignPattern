@@ -1,8 +1,8 @@
 package utils;
 
 public class Utils {
-	public static void p(String str){
-		System.out.println(str);
+	public static void p(Object obj){
+		System.out.println(obj);
 	}
 
 }

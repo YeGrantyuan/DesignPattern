@@ -5,6 +5,7 @@ import utils.Utils;
 public class Client {
 	public static void main(String[] args){
 		String playerName = "张三";
+		
 		IGamePlayer player = new GamePlayer(playerName);
 		
 		IGamePlayer proxyPlayer = player.getProxy();
