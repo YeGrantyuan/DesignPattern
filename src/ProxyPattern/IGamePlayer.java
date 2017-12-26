@@ -8,7 +8,7 @@ public interface IGamePlayer {
 	public void killBoss();
 	
 	/*	升级	*/
-	public void upgrade();
+	public void upgrade(int i);
 	
 	/*	【强制代理】 每个人都以找一下自己的代理	*/
 	public IGamePlayer getProxy();

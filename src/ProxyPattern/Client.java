@@ -20,7 +20,7 @@ public class Client {
 		}catch(Exception e){
 			e.toString();
 		}
-		proxyPlayer.upgrade();
+		proxyPlayer.upgrade(5000/1000);
 		
 		Utils.p("游戏结束时间：2017-12-20 20:18");
 	}

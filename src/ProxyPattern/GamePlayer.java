@@ -54,9 +54,9 @@ public class GamePlayer implements IGamePlayer{
 	}
 
 	@Override
-	public void upgrade() {
+	public void upgrade(int i) {
 		if(this.hasProxy()){
-			Utils.p(this.name + " 又升一级!");
+			Utils.p(this.name + " 又升" + i + "级!");
 		}else{
 			Utils.p("请使用指定的代理访问");
 		}

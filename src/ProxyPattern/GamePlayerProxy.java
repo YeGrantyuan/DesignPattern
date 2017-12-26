@@ -56,8 +56,8 @@ public class GamePlayerProxy implements IGamePlayer, IProxy{
 	}
 
 	@Override
-	public void upgrade() {
-		this.gamePlayer.upgrade();
+	public void upgrade(int i) {
+		this.gamePlayer.upgrade(i);
 		playerExit = false;
 		count();
 	}
