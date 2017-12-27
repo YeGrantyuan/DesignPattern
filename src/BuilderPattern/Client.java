@@ -3,8 +3,9 @@ package BuilderPattern;
 
 import java.awt.image.DirectColorModel;
 
+import utils.Utils;
+
 import BuilderPattern.Director.Director;
-import Utils.Utils;
 
 
 

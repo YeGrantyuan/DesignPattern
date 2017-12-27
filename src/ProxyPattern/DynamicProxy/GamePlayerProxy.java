@@ -19,7 +19,7 @@ public class GamePlayerProxy implements IGamePlayer, IProxy{
 //		try{
 //			gamePlayer = new GamePlayer(this, name);
 //		}catch(Exception e){
-//			Utils.p(e.toString());
+//			utils.p(e.toString());
 //		}
 		this.gamePlayer = _gamePlayer;
 		

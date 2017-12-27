@@ -1,6 +1,6 @@
 package TemplateMethodPatten;
 
-import Utils.Utils;
+import utils.Utils;
 
 public class Client {
 	public static void main(String[] args){

@@ -1,6 +1,6 @@
 package BuilderPattern.CarModel;
 
-import Utils.Utils;
+import utils.Utils;
 
 /**
  * @author Grantyuan

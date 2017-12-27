@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-import Utils.Utils;
+import utils.Utils;
 
 public class NvWa {
 	public static void  main(String[] args){

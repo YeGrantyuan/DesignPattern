@@ -1,6 +1,6 @@
 package AbstractFactoryPattern;
 
-import Utils.Utils;
+import utils.Utils;
 
 public class MaleWhiteHuman extends AbstractWhiteHuman{
 

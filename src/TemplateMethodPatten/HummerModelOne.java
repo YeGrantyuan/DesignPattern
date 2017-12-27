@@ -1,6 +1,6 @@
 package TemplateMethodPatten;
 
-import Utils.Utils;
+import utils.Utils;
 
 public class HummerModelOne extends HummerModel{
 	private boolean alarmFlag;
