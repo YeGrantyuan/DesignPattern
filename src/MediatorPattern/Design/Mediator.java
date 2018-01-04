@@ -35,7 +35,9 @@ public class Mediator extends AbstractMediator {
 		if(super.stock.getStockNumber() < number){/* 库存不够，进货 */
 			super.purchase.buyIBMcomputer(number);
 		}
-		super.sale.sellIBMComputer(number);
+//		super.sale.sellIBMComputer(number);
+		super.stock.decrease(number);
+		
 	}
 
 	/*	打折销售	*/

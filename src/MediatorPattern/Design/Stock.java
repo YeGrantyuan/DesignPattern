@@ -22,6 +22,10 @@ public class Stock extends AbstractColleague{
 	}
 	
 	//库存降低
+	public void decrease(int number){
+		COMPUTER_NUMBER = COMPUTER_NUMBER - number;
+		Utils.p("卖出电脑： " + number + " 台;" + " 还剩： " + COMPUTER_NUMBER + " 台");
+	}
 	
 	//获得库存数量
 	public int getStockNumber(){
@@ -30,14 +34,13 @@ public class Stock extends AbstractColleague{
 	
 	//存货压力大了，通知采购人员不要采购，销售人员尽快销售
 	public void clearStock(){
-		Purchase purchase = new Purchase();
-		Sale sale = new Sale();
+		
 		Utils.p("清除库存，总数量为: " + COMPUTER_NUMBER);
 		
 		//要求折价销售
-		sale.offSale();
+		super.mediator.sale.offSale();
 		
 		//要求采购人员不要采购
-		purchase.refuseBuyIBM();
+		super.mediator.purchase.refuseBuyIBM();
 	}
 }
