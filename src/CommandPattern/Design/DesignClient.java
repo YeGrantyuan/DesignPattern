@@ -1,8 +1,6 @@
 package CommandPattern.Design;
 
 import CommandPattern.Design.Invoker.Invoker;
-import CommandPattern.Design.SpecificCommand.AddRequirementCommand;
-import CommandPattern.Design.SpecificCommand.ChangeLogicRequirement;
 import CommandPattern.Design.SpecificCommand.Command;
 import CommandPattern.Design.SpecificCommand.DeletePageRequirement;
 
